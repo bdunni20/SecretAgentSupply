@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: white;
+  border: 1px solid;
+}
+
+/*Logo div*/
+
+.logo {
+  border: 1px solid;
+  }
+
+  /*Main image and advert*/
+
+  .main-img {
+    border: 1px solid;
+  }
+
+
+  /*navigation bar*/
+
+  .nav {
+    border: 1px solid;
+  }
+
+  /*gallery images and contact info*/
+
+  .gallery {
+    border: 1px solid;
+  }
+
+  .gallery-img {
+    border: 1px solid;
+  }
+
+  .gallery-img img {
+    border: 1px solid;
+  }
