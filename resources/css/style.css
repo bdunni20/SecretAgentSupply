@@ -1,21 +1,78 @@
-body {
-  background-color: black;
-  color: white;
-  border: 1px solid;
+/*universal styles*/
+
+html {
+  font-size: 12px;
 }
 
-/*Logo div*/
+
+body {
+  background-color: white;
+  color:;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+}
+
+/*Container element*/
+
+.container {
+  width: 960px;
+}
+
+/*Logo*/
 
 .logo {
+  display: flex;
+  align-items: center;
   border: 1px solid;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  background-color: black;
+  color: white;
   }
 
+.logo img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.logo span {
+  font-family: Helvetica;
+  font-size: 1rem;
+
+
+}
   /*Main image and advert*/
 
-  .main-img {
-    border: 1px solid;
+.main-img {
+    background-image: url("images/moto.jpeg");
+    height: 24rem;
+    border: 1px solid black;
   }
 
+.advert {
+    font-family: Helvetica;
+    background-color: black;
+    width: 20rem;
+    margin-top: 9rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    color: white;
+    border: 1px solid white;
+  }
+
+.advert h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.advert p {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
 
   /*navigation bar*/
 
