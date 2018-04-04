@@ -1,20 +1,28 @@
 /*universal styles*/
 
 html {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 
 body {
-  border: 1px solid;
   display: flex;
   justify-content: center;
 }
 
+.describe {
+  font-size: 1rem;
+  font-family: helvetica;
+
+}
 /*Container element*/
 
 .container {
-  width: 960px;
+  width:100%;
+  min-width: 960px;
+}
+.container.main-img {
+  background-image: url("./images/moto.jpeg");
 }
 
 /*Logo*/
@@ -22,7 +30,6 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  border: 1px solid;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
   background-color: black;
@@ -44,7 +51,7 @@ body {
   /*Main image and advert*/
 
 .main-img {
-    background-image: url("./images/moto.jpeg");
+    background-image: url("/");
     height: 24rem;
     border: 1px solid black;
   }
@@ -57,7 +64,6 @@ body {
     padding-top: 2rem;
     padding-left: 3rem;
     color: white;
-    border: 1px solid white;
   }
 
 .advert h1 {
@@ -78,7 +84,8 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: firebrick;
-  border: 1px solid;
+
+
   }
 
 nav span {
@@ -95,13 +102,118 @@ nav span {
   /*gallery images and contact info*/
 
 .gallery {
-  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
 .gallery-img {
-  border: 1px solid;
+  margin-top: 3rem;
+  border: 4px solid;
+  padding: 2rem;
 }
 
 .gallery-img img {
-    border: 1px solid;
+    border:;
+}
+
+.gallery-img p {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 0.45rem;
+  align-items: stretch;
+
+}
+
+/*pen*/
+
+.pen {
+  height: 9rem;
+}
+.pen img {
+  height: 9rem;
+  padding-top: ;
+  padding-bottom: ;
+}
+
+/*watch*/
+
+.watch img {
+  height: 9rem;
+  padding-top: ;
+}
+
+.watch {
+  padding-bottom: 0px;
+}
+
+/*glasses*/
+
+.glasses {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 9rem;
+  width: 9rem;
+  padding-top: ;
+}
+
+.glasses img {
+  height: 45%;
+
+}
+
+/*contact info*/
+
+.land-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.describe {
+  background-color: black;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+
+}
+
+.hours.info {
+  padding-top: 10px;
+}
+
+/*footer*/
+
+.footer {
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 5rem;
+  background-color: black;
+}
+
+.copyright {
+  color: white;
+  padding-left: 10px;
+  font-family: helvetica;
 }
