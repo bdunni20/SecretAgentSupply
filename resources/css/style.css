@@ -6,8 +6,6 @@ html {
 
 
 body {
-  background-color: white;
-  color:;
   border: 1px solid;
   display: flex;
   justify-content: center;
@@ -46,7 +44,7 @@ body {
   /*Main image and advert*/
 
 .main-img {
-    background-image: url("images/moto.jpeg");
+    background-image: url("./images/moto.jpeg");
     height: 24rem;
     border: 1px solid black;
   }
@@ -76,20 +74,34 @@ body {
 
   /*navigation bar*/
 
-  .nav {
-    border: 1px solid;
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: firebrick;
+  border: 1px solid;
   }
+
+nav span {
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-right: 5px;
+  padding-left: 5px;
+
+}
 
   /*gallery images and contact info*/
 
-  .gallery {
-    border: 1px solid;
-  }
+.gallery {
+  border: 1px solid;
+}
 
-  .gallery-img {
-    border: 1px solid;
-  }
+.gallery-img {
+  border: 1px solid;
+}
 
-  .gallery-img img {
+.gallery-img img {
     border: 1px solid;
-  }
+}
